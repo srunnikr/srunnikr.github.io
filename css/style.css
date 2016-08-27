@@ -1,13 +1,81 @@
+.body {
+	margin-left: 10%;
+}
+
 .heading {
+	font-family: 'Merriweather', sans-serif;
 	margin-left: 10%;
 	color: #FFFFFF;
 }
+
 .jumbotron {
 	background-color: #643b87;
+	margin-top: 50px;
 }
+
 .introParagraph {
+	font-family: 'Droid Serif', serif;
 	font-size: 15em;
 }
+
 .introText {
 	font-size: 10em;
+}
+
+.hr {
+	margin-left: 0;
+	margin-right: auto;
+	width: 60%;
+	border: 2px solid white;
+}
+
+.intro-text {
+	margin-right: auto;
+	margin-left: 9%;
+	max-width: 800px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25em;
+	line-height: 25px;
+}
+
+.section {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 9%;
+	color: #574e36;
+	font-family:'Merriweather', sans-serif;
+}
+
+.section hr {
+	margin-left: 0;
+	margin-right: auto;
+	width: 60%;
+	border: 1px solid #574e36;
+}
+
+.skills-images {
+	margin-left: 5%;
+	margin-bottom: 50px;
+}
+
+.skills-images li {
+	display: inline;
+	list-style: none;
+	padding: 10px;
+}
+
+.skillimagewide {
+	max-width: 2000px;
+	max-height: 80px;
+}
+
+.skillimage {
+	max-width: 80px;
+	max-height: 80px;
+}
+
+.footer {
+	height: 200px;
+	color: #FFFFFF;
+	background-color: #000000;
 }
