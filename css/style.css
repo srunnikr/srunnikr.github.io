@@ -106,3 +106,37 @@
 	color: #FFFFFF;
 	background-color: #000000;
 }
+
+.project-page-heading {
+	margin-left: 10%;
+	font-size: 1.5em;
+	margin-top: 75px;
+	font-family: 'Merriweather', sans-serif;
+}
+
+.project-hr {
+	margin-left: 0;
+	margin-right: auto;
+	width: 60%;
+	border: 2px solid black;
+}
+
+.project-item {
+	margin-left: 10%;
+}
+
+.project-heading {
+	font-family: 'Merriweather', sans-serif;
+	text-decoration: underline;
+	font-size: 1.7em;
+}
+
+.project-subheading {
+	font-family: 'Merriweather', sans-serif;
+	font-size: 1.25em;
+
+}
+
+.project-text {
+	font-family: 'Droid Serif', serif;
+}
