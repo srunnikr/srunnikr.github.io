@@ -127,16 +127,38 @@
 
 .project-heading {
 	font-family: 'Merriweather', sans-serif;
-	text-decoration: underline;
+	#text-decoration: underline;
 	font-size: 1.7em;
 }
 
 .project-subheading {
 	font-family: 'Merriweather', sans-serif;
 	font-size: 1.25em;
-
 }
 
 .project-text {
 	font-family: 'Droid Serif', serif;
+	font-size: 1.25em;
+	margin: 20px;
+	max-width: 75%;
+}
+
+.project-video {
+	margin: 5% 10%;
+}
+
+.project-text p {
+	font-size: 1em;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.project-github {
+	margin-left: 3%;
+}
+
+.project-github img {
+	display: inline;
+	max-width: 50px;
+	max-height: 50px;
 }

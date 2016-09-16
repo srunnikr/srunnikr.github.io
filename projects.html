@@ -26,24 +26,48 @@
 		  	</div>
 		</nav>
 
-        <div class="container-fluid project-page-heading">
-            <h2>Projects</h2>
-            <hr class="project-hr">
+        <div class="jumbotron">
+            <div class="heading">
+                <h1>Projects</h1>
+            </div>
         </div>
 
-        <div class="container-fluid project-item">
+        <div class="container-fluid section">
             <div class="container-fluid project-heading">
                 <h2> Robocop </h2>
+                <hr class="hr">
             </div>
             <div class="container-fluid project-subheading">
                 <h4>Beaglebone, NodeJS based Surveillance Robot</h4>
             </div>
+
+            <div class="project-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xuc2gClw2tE" frameborder="0" allowfullscreen></iframe>
+            </div>
+
             <div class="container-fluid project-text">
-                
+                <p>Robocop is Beaglebone based surveillance robot developed at UCSD. It uses iRobot create as the base platform. We have vibration sensors attached to the window and door panes, which detects any vibration or tampering signals when the system is enabled. If it detects someone is trying to break in, it sends a message to the NodeJS web server running on the Robot. It goes to the place of disturbance, takes a photo using the attached Logitech webcam and emails it to the user/administrator. The project was meant to understand and study the inherent complexities of connected sensor systems and robotics.
+                </p>
+
+                My contributions include
+
+                <br><br>
+
+                <ul>
+                    <li> Overall system architecture</li>
+                    <li> Complete Embedded software design and development</li>
+                    <li> Node JS core server on robot : sensor communication and email API using Python</li>
+                </ul>
+            </div>
+
+            <div class="project-github">
+                <p>Check it out on github : <a href="https://github.com/srunnikr/Robocop_NodeJS_BBB_Irobot" target="_blank">
+                    <img src="images/octocat.jpg"></a>
+                </p>
             </div>
         </div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js""></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     </body>
