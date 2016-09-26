@@ -1,7 +1,7 @@
-<!doctype html> 
+<!doctype html>
 <html>
 
-    <head> 
+    <head>
         <meta charset="utf-8">
     	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,7 +21,7 @@
 			    <ul class="nav navbar-nav">
 					<li class="active"><a href="index.html">Home</a></li>
 					<li><a href="projects.html">Projects</a></li>
-					<li><a href="contact.html">Contact</a></li> 
+					<li><a href="contact.html">Contact</a></li>
 			    </ul>
 		  	</div>
 		</nav>
@@ -47,6 +47,78 @@
 
             <div class="container-fluid project-text">
                 <p>Robocop is Beaglebone based surveillance robot developed at UCSD. It uses iRobot create as the base platform. We have vibration sensors attached to the window and door panes, which detects any vibration or tampering signals when the system is enabled. If it detects someone is trying to break in, it sends a message to the NodeJS web server running on the Robot. It goes to the place of disturbance, takes a photo using the attached Logitech webcam and emails it to the user/administrator. The project was meant to understand and study the inherent complexities of connected sensor systems and robotics.
+                </p>
+
+                My contributions include
+
+                <br><br>
+
+                <ul>
+                    <li> Overall system architecture</li>
+                    <li> Complete Embedded software design and development</li>
+                    <li> Node JS core server on robot : sensor communication and email API using Python</li>
+                </ul>
+            </div>
+
+            <div class="project-github">
+                <p>Check it out on github : <a href="https://github.com/srunnikr/Robocop_NodeJS_BBB_Irobot" target="_blank">
+                    <img src="images/octocat.jpg"></a>
+                </p>
+            </div>
+        </div>
+
+        <div class="container-fluid section">
+            <div class="container-fluid project-heading">
+                <h2> Autonomous Ball Picking Robot </h2>
+                <hr class="hr">
+            </div>
+            <div class="container-fluid project-subheading">
+                <h4>Using Odroid-XU4, iRobot and OpenCV</h4>
+            </div>
+            <div class="project-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xiNMTBRj4k4" frameborder="0" allowfullscreen></iframe>
+            </div>
+<!-- ################################################################################################### -->
+
+            <div class="container-fluid project-text">
+                <p>Designed developed and implemeted an autonomous ball picking robot, using Odroid-XU4 platform and iRobot that can roam around, find colored balls on the floor, pick them up and store them in a bucket
+                    Our robot also participated in a robotics competition at UCSD among 8 others.
+                </p>
+
+                My contributions include
+
+                <br><br>
+
+                <ul>
+                    <li> Overall Embedded System Architecture </li>
+                    <li> Software design for the Robotic arm actuation and control </li>
+                    <li> Drivers and API for all the sensors on the device: Ultrasound, Camera, Servo motors and UART communication module </li>
+                </ul>
+            </div>
+<!-- #######################################TODO: UPDATE github link ####################################################### -->
+<!--            <div class="project-github">
+                <p>Check it out on github : <a href="https://github.com/srunnikr/Robocop_NodeJS_BBB_Irobot" target="_blank">
+                    <img src="images/octocat.jpg"></a>
+                </p>
+            </div>
+
+-->
+<!-- ################################################################################################### -->
+        </div>
+
+
+        <div class="container-fluid section">
+            <div class="container-fluid project-heading">
+                <h2> Distributed File System </h2>
+                <hr class="hr">
+            </div>
+            <div class="container-fluid project-subheading">
+                <h4> Java nased custom DFS and RPC implementation </h4>
+            </div>
+
+            <div class="container-fluid project-text">
+                <p>Developed a custom Distributed File System in Java in a team of two. The DFS allows adding and querying file structure. Handles concurrent file system access and Read / Write protection.
+                    The system was developed in two tiers
                 </p>
 
                 My contributions include
