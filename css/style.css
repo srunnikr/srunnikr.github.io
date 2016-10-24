@@ -139,7 +139,8 @@
 .project-text {
 	font-family: 'Droid Serif', serif;
 	font-size: 1.25em;
-	margin: 20px;
+	margin: 0px;
+	padding-top: 10px;
 	max-width: 75%;
 }
 
